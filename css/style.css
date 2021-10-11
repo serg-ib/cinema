@@ -159,9 +159,9 @@ line-height: 35px;
   cursor: pointer;
 }
 .scheme path:not(.light):hover{
-  fill: rgba(255, 255, 255, 0.5);
-
+  fill: rgba(255, 255, 255, 0.5);  
 }
+
 .scheme path.booked,
 .scheme path.booked:hover{
   fill: rgba(255, 255, 255, 0.05);
@@ -171,6 +171,11 @@ line-height: 35px;
 .scheme path.active:hover{
   fill: #FE8E05;
 }
+
+.scheme path.light {
+  cursor: not-allowed;
+}
+
 .legend{
   display: flex;
   align-items:center;
